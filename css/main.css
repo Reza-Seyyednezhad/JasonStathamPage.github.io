@@ -250,7 +250,7 @@
       -ms-flex-align: center;
           align-items: center;
   right: 0;
-  background: url("/images/Jason Statham Wallpaper For PC.jpg") no-repeat center;
+  background: url("/images/gallery/40522182_167625600802907_6332360618592524362_n.jpg") no-repeat center;
   background-size: cover;
   background-color: #677077;
   -webkit-box-orient: vertical;
@@ -356,15 +356,68 @@ html {
 }
 
 .scrollMode .goToUp {
+  background-color: #252839;
   border-radius: 50%;
   position: fixed;
   bottom: 100px;
   right: 100px;
 }
 
+@media screen and (max-width: 1150px) {
+  .scrollMode .goToUp {
+    bottom: 75px;
+    right: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode .goToUp {
+    bottom: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode .goToUp {
+    bottom: 25px;
+    right: 25px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode .goToUp {
+    bottom: 12.5px;
+    right: 12.5px;
+  }
+}
+
 .scrollMode .goToUp a {
   font-size: 4rem;
   color: #f2b632;
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode .goToUp a {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode .goToUp a {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode .goToUp a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode .goToUp a {
+    font-size: 1rem;
+  }
 }
 
 .scrollMode-center {
@@ -1831,7 +1884,7 @@ html {
 
 .scrollMode-center-footer .footer-upSection .footer-left {
   width: 70%;
-  padding: 50px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -1844,6 +1897,12 @@ html {
 @media screen and (max-width: 936px) {
   .scrollMode-center-footer .footer-upSection .footer-left {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-footer .footer-upSection .footer-left {
+    padding: 10px 0;
   }
 }
 
@@ -1872,15 +1931,33 @@ html {
   }
 }
 
+@media screen and (max-width: 456px) {
+  .scrollMode-center-footer .footer-upSection .footer-left h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
 .scrollMode-center-footer .footer-upSection .footer-left ul {
   text-align: center;
   list-style: none;
   list-style-position: inside;
 }
 
+@media screen and (max-width: 456px) {
+  .scrollMode-center-footer .footer-upSection .footer-left ul {
+    width: 100%;
+  }
+}
+
 .scrollMode-center-footer .footer-upSection .footer-left ul li {
   color: #f2b632;
-  margin: 20px 0;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-footer .footer-upSection .footer-left ul li {
+    width: 100%;
+  }
 }
 
 .scrollMode-center-footer .footer-upSection .footer-left ul li a {
@@ -1911,6 +1988,24 @@ html {
 @media screen and (max-width: 936px) {
   .scrollMode-center-footer .footer-upSection .footer-left ul li a {
     font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-footer .footer-upSection .footer-left ul li a {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-footer .footer-upSection .footer-left ul li a {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-footer .footer-upSection .footer-left ul li a {
+    font-size: .5rem !important;
   }
 }
 
@@ -2012,6 +2107,12 @@ html {
   }
 }
 
+@media screen and (max-width: 456px) {
+  .scrollMode-center-footer .footer-upSection .footer-right h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
 .scrollMode-center-footer .footer-upSection .footer-right-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2077,6 +2178,18 @@ html {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .scrollMode-center-footer .footer-upSection .footer-right-items h1 a {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-footer .footer-upSection .footer-right-items h1 a {
+    font-size: 1rem !important;
+  }
+}
+
 .scrollMode-center-footer .footer-downSection {
   width: 100%;
   text-align: center;
@@ -2084,6 +2197,12 @@ html {
 
 .scrollMode-center-footer .footer-downSection h4 {
   color: #f2b632;
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-footer .footer-downSection h4 {
+    font-size: 12px;
+  }
 }
 
 * {

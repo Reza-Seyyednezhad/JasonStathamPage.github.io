@@ -1,6 +1,5 @@
 node_modules/
 sass/
-gallery-app.js
 test.txt
 package.json
 package-lock.json

@@ -58,6 +58,21 @@ tippy('#FaceHeader', {
     placement: 'bottom',
     animation: 'fade',
 });
+tippy('#twitfooter', {
+    content: 'Twitter',
+    placement: 'top',
+    animation: 'fade',
+});
+tippy('#instafooter', {
+    content: 'Instagram',
+    placement: 'top',
+    animation: 'fade',
+});
+tippy('#facefooter', {
+    content: 'Facebook',
+    placement: 'top',
+    animation: 'fade',
+});
 $('#movies-toggle').on('click', function (e) {
     $('.movies-table').toggle('fast', 'swing')
     $('.videoGameTable').hide('fast', 'swing')

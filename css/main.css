@@ -1,0 +1,1969 @@
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/Roboto-Bold.eot") format("eot");
+  src: url("../fonts/Roboto-Bold.ttf") format("ttf");
+  src: url("../fonts/Roboto-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto-Regular.eot") format("eot");
+  src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../fonts/Roboto-Light.ttf") format("ttf");
+  src: url("../fonts/Roboto-Light.eot") format("eot");
+  src: url("../fonts/Roboto-Light.woff") format("woff");
+}
+
+.btn-main-outline-orange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 50px;
+  border-style: ridge;
+  background-color: transparent;
+  color: #f2b632;
+  border-color: #f2b632;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-main-outline-orange:hover {
+  background-color: #f2b632;
+  -webkit-box-shadow: 0px 10px 100px 32px #f2b632;
+          box-shadow: 0px 10px 100px 32px #f2b632;
+  color: #252839;
+  border-style: solid;
+}
+
+.btn-main-orange {
+  background-color: #252839;
+  color: #f2b632;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+@-webkit-keyframes welcomeAnimation {
+  0% {
+    -webkit-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+  }
+}
+
+@keyframes welcomeAnimation {
+  0% {
+    -webkit-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+  }
+  25% {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  50% {
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  75% {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+  }
+}
+
+@-webkit-keyframes welcomeAnimation2 {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes welcomeAnimation2 {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes welcomeAnimation3 {
+  0% {
+    letter-spacing: 0;
+  }
+  50% {
+    letter-spacing: 10px;
+    color: #f2b632;
+  }
+  100% {
+    letter-spacing: 0;
+  }
+}
+
+@keyframes welcomeAnimation3 {
+  0% {
+    letter-spacing: 0;
+  }
+  50% {
+    letter-spacing: 10px;
+    color: #f2b632;
+  }
+  100% {
+    letter-spacing: 0;
+  }
+}
+
+@-webkit-keyframes welcomeAnimation4 {
+  0% {
+    width: 200px;
+  }
+  100% {
+    width: 400px;
+  }
+}
+
+@keyframes welcomeAnimation4 {
+  0% {
+    width: 200px;
+  }
+  100% {
+    width: 400px;
+  }
+}
+
+.outer {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto Bold", sans-serif;
+  position: relative;
+}
+
+.outer-left {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #b5b5b7;
+  background: url("../images/Jason Statham Desktop Wallpaper.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.outer-left-welcome {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  -webkit-animation: welcomeAnimation3 2s linear 1s infinite;
+          animation: welcomeAnimation3 2s linear 1s infinite;
+}
+
+.outer-left .Mode {
+  border: 3px solid #f2b632;
+  padding: 20px 10px;
+  background-color: #b5b5b7;
+  opacity: .5;
+  border-radius: 10px 40px 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 10px 100px -9px #f2b632;
+          box-shadow: 0px 10px 100px -9px #f2b632;
+}
+
+.outer-left .Mode .modesLabel {
+  font-size: 20px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  color: #252839;
+}
+
+.outer-left .Mode h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .outer-left {
+    display: none;
+  }
+}
+
+.outer-right {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 0;
+  background: url("/images/Jason Statham Wallpaper For PC.jpg") no-repeat center;
+  background-size: cover;
+  background-color: #677077;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.outer-right-welcome {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  -webkit-animation: welcomeAnimation3 2s linear 1s infinite;
+          animation: welcomeAnimation3 2s linear 1s infinite;
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .outer-right-welcome {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .outer-right-welcome {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .outer-right-welcome {
+    font-size: 30px;
+  }
+}
+
+.outer-right .pre-main-buton {
+  border: 3px solid #f2b632;
+  font-family: "Roboto Bold", sans-serif;
+  letter-spacing: 7px;
+  padding: 10px 30px;
+  font-size: 20px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.outer-right .pre-main-buton:hover {
+  -webkit-animation: welcomeAnimation4 2s linear 0s 0;
+          animation: welcomeAnimation4 2s linear 0s 0;
+}
+
+@media screen and (max-width: 425px) {
+  .outer-right .pre-main-buton {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .outer-right {
+    width: 100%;
+  }
+}
+
+::-moz-selection {
+  background-color: #252839;
+}
+
+::selection {
+  background-color: #252839;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f2b632;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #252839;
+}
+
+.scrollMode {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #677077;
+  position: relative;
+}
+
+.scrollMode .goToUp {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+.scrollMode .goToUp a {
+  font-size: 4rem;
+  color: #f2b632;
+}
+
+.scrollMode-center {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.scrollMode-center .main-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollMode-center .main-stars .star {
+  font-size: 5rem;
+  color: #f2b632;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center .main-stars .star {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center .main-stars .star {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center .main-stars .star {
+    font-size: 2rem;
+  }
+}
+
+.scrollMode-center-header {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/annie-spratt-gM8igOIP5MA-unsplash.jpg") no-repeat center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header {
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20px;
+  }
+}
+
+.scrollMode-center-header-left {
+  width: 35%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-header-left {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-left {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-left {
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 20px 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-header-left {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.scrollMode-center-header-left-image {
+  width: 350px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 10px 100px 25px #f2b632;
+          box-shadow: 0px 10px 100px 25px #f2b632;
+  -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-left-image {
+    width: 34%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.scrollMode-center-header-left-image:hover {
+  -webkit-box-shadow: 0px 10px 80px 80px #f2b632;
+          box-shadow: 0px 10px 80px 80px #f2b632;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-header-left-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-left-image {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-left-image {
+    width: 250px;
+    height: 250px;
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-header-left-image {
+    width: 180px;
+    height: 180px;
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-header-left-image {
+    width: 120px;
+    height: 120px;
+    margin: 0 15px;
+  }
+}
+
+.scrollMode-center-header-left-intro {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-left-intro {
+    width: 33%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.scrollMode-center-header-left-intro h3 {
+  color: #f2b632;
+  font-size: 60px;
+  text-shadow: -10px -10px 10px rgba(242, 182, 50, 0.5);
+  font-family: "Roboto Bold", sans-serif;
+  text-align: center;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-header-left-intro h3 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-left-intro h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-left-intro h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-header-left-intro h3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-header-left-intro h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-header-left-intro h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-header-left-intro h3 {
+    font-size: 20px;
+  }
+}
+
+.scrollMode-center-header-left-intro h4 {
+  color: #f2b632;
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-left-intro h4 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-header-left-intro h4 {
+    font-size: 8px;
+  }
+}
+
+.scrollMode-center-header-left-socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-left-socialMedia {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-left-socialMedia {
+    width: 33%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-header-left-socialMedia {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.scrollMode-center-header-left-socialMedia a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #f2b632;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  margin: 10px 0;
+}
+
+.scrollMode-center-header-left-socialMedia a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-left-socialMedia a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-header-left-socialMedia a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-header-left-socialMedia a {
+    font-size: 20px;
+  }
+}
+
+.scrollMode-center-header-right {
+  width: 65%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f2b632;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-header-right {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-right {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-right {
+    width: 100%;
+  }
+}
+
+.scrollMode-center-header-right h1 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-header-right h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-header-right h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-right h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-header-right h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-header-right h1 {
+    font-size: 20px;
+  }
+}
+
+.scrollMode-center-header-right .intro-content {
+  width: 100%;
+  padding: 20px;
+}
+
+.scrollMode-center-header-right .intro-content p {
+  font-size: 1.1rem;
+  padding: 20px;
+  text-align: center;
+  word-spacing: 5px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-header-right .intro-content p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-right .intro-content p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-right .intro-content p {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+.scrollMode-center-header-right .header-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-header-right .header-button {
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-header-right .header-button {
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+.scrollMode-center-main {
+  background-color: #677077;
+  width: 100%;
+}
+
+.scrollMode-center-main-section {
+  width: 100%;
+  padding: 40px 20px 10px 20px;
+}
+
+.scrollMode-center-main-section h1.mainLinks {
+  width: 80%;
+  padding: 20px;
+  background-color: #252839;
+  color: #f2b632;
+  -webkit-box-shadow: 0px 10px 55px 20px #252839;
+          box-shadow: 0px 10px 55px 20px #252839;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px 20px;
+  letter-spacing: 5px;
+  font-family: "Roboto Regular", sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-main-section h1.mainLinks {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main-section h1.mainLinks {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main-section h1.mainLinks {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-main-section h1.mainLinks {
+    font-size: 1.2rem;
+  }
+}
+
+.scrollMode-center-main .main-sections-links {
+  color: #f2b632;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.scrollMode-center-main .main-sections-links:hover {
+  text-shadow: 3px 1px 12px #f2b632;
+}
+
+.scrollMode-center-main .aboutMe-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 0 20px;
+  background: url("../images/Jason Statham Desktop Background.png") no-repeat center;
+  background-position: top;
+  background-size: cover;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .aboutMe-body {
+    width: 100%;
+  }
+}
+
+.scrollMode-center-main .aboutMe-body-content {
+  font-size: 20px;
+  font-family: "Roboto Regular", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #f2b632;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-main .aboutMe-body-content {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main .aboutMe-body-content {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .aboutMe-body-content {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .aboutMe-body-content {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-main .aboutMe-body-content {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-main .aboutMe-body-content {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-main .aboutMe-body-content {
+    font-size: 15px;
+  }
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent {
+  display: none;
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .mySpecialties .specialties-parent .specialties {
+    width: 100%;
+  }
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability h3 {
+  color: #f2b632;
+  text-align: center;
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .circle {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #FFCDB2;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .circle {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .circle {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .circle .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: #f2b632;
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .circle .inner {
+    width: 85px;
+    height: 85px;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .circle .inner {
+    width: 75px;
+    height: 75px;
+    font-size: 1.2em;
+  }
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .per-25 {
+  background-image: conic-gradient(#f2b632 25%, #252839 0);
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .per-50 {
+  background-image: conic-gradient(#f2b632 50%, #252839 0);
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .per-75 {
+  background-image: conic-gradient(#f2b632 75%, #252839 0);
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .per-100 {
+  background-image: conic-gradient(#f2b632 100%, #252839 0);
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .per-85 {
+  background-image: conic-gradient(#f2b632 85%, #252839 0);
+}
+
+.scrollMode-center-main .mySpecialties .specialties-parent .specialties .ability .per-95 {
+  background-image: conic-gradient(#f2b632 95%, #252839 0);
+}
+
+.scrollMode-center-main .career .career-parent {
+  display: none;
+}
+
+.scrollMode-center-main .career .career-parent .career-body {
+  width: 80%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .career .career-parent .career-body {
+    width: 100%;
+  }
+}
+
+.scrollMode-center-main .career .career-parent .career-body .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollMode-center-main .career .career-parent .career-body .stars .star {
+  font-size: 3rem;
+  color: #f2b632;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/Jason_Statham_Wallpaper_High_Definition-removebg-preview.png") no-repeat center;
+  background-position: center;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section1-center {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 1.1rem;
+  line-height: 30px;
+  color: #f2b632;
+  text-align: center;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section1-center h2 {
+  font-family: "Roboto Bold", sans-serif;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section1-center p {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-main .career .career-parent .career-body-section1-center {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main .career .career-parent .career-body-section1-center {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .career .career-parent .career-body-section1-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .career .career-parent .career-body-section1-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-main .career .career-parent .career-body-section1-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-main .career .career-parent .career-body-section1-center {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-main .career .career-parent .career-body-section1-center {
+    font-size: 15px;
+  }
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/Jason_Statham_Wallpaper_For_Android-removebg-preview.png") no-repeat center;
+  background-position: center;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section2-center {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 1.1rem;
+  line-height: 30px;
+  color: #f2b632;
+  text-align: justify;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section2-center h2 {
+  font-family: "Roboto Bold", sans-serif;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section2-center p {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-main .career .career-parent .career-body-section2-center {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main .career .career-parent .career-body-section2-center {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .career .career-parent .career-body-section2-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .career .career-parent .career-body-section2-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-main .career .career-parent .career-body-section2-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-main .career .career-parent .career-body-section2-center {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-main .career .career-parent .career-body-section2-center {
+    font-size: 15px;
+  }
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/Jason_Statham_Wallpaper_Full_HD-removebg-preview.png") no-repeat center;
+  background-position: center;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section3-center {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 1.1rem;
+  line-height: 30px;
+  color: #f2b632;
+  text-align: justify;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section3-center h2 {
+  font-family: "Roboto Bold", sans-serif;
+}
+
+.scrollMode-center-main .career .career-parent .career-body-section3-center p {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-main .career .career-parent .career-body-section3-center {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main .career .career-parent .career-body-section3-center {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .career .career-parent .career-body-section3-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .career .career-parent .career-body-section3-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .scrollMode-center-main .career .career-parent .career-body-section3-center {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-main .career .career-parent .career-body-section3-center {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .scrollMode-center-main .career .career-parent .career-body-section3-center {
+    font-size: 15px;
+  }
+}
+
+.scrollMode-center-main .gallery-parent {
+  display: none;
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body {
+  width: 80%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body-upSection {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  margin: 20px 0;
+  border-bottom: 5px dashed #252839;
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body-upSection-bigImage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body-upSection-bigImage img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 5;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body-upSection-bigImage img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body-downSection {
+  width: 100%;
+  height: 300px;
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body-downSection-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.scrollMode-center-main .gallery-parent .gallery-body-downSection-items-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+}
+
+.scrollMode-center-main .awards-parent {
+  display: none;
+  width: 80%;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .awards-parent {
+    width: 100%;
+  }
+}
+
+.scrollMode-center-main .awards-parent-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollMode-center-main .awards-parent-body table {
+  width: 85%;
+  border-collapse: collapse;
+  border: 1px solid #f2b632;
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .awards-parent-body table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.scrollMode-center-main .awards-parent-body table, .scrollMode-center-main .awards-parent-body tr, .scrollMode-center-main .awards-parent-body td, .scrollMode-center-main .awards-parent-body th {
+  text-align: center;
+  color: #f2b632;
+}
+
+.scrollMode-center-main .awards-parent-body tr, .scrollMode-center-main .awards-parent-body td, .scrollMode-center-main .awards-parent-body th {
+  padding: 20px;
+}
+
+.scrollMode-center-main .awards-parent-body th {
+  background-color: #252839;
+}
+
+.scrollMode-center-main .myActivities {
+  height: 100%;
+}
+
+.scrollMode-center-main .myActivities-parent {
+  display: none;
+  width: 80%;
+  margin: 30px auto;
+  height: 100%;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .myActivities-parent {
+    width: 100%;
+  }
+}
+
+.scrollMode-center-main .myActivities-parent-body {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+
+.scrollMode-center-main .myActivities-parent-body-menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.scrollMode-center-main .myActivities-parent-body-menu .media-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.scrollMode-center-main .myActivities-parent-body-menu .media-btn:hover {
+  text-shadow: -5px -5px 10px #f2b632;
+}
+
+.scrollMode-center-main .myActivities-parent-body-films, .scrollMode-center-main .myActivities-parent-body-videoGames, .scrollMode-center-main .myActivities-parent-body-musicVideos {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.scrollMode-center-main .myActivities-parent-body-films h1.activites-header, .scrollMode-center-main .myActivities-parent-body-videoGames h1.activites-header, .scrollMode-center-main .myActivities-parent-body-musicVideos h1.activites-header {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  color: #f2b632;
+  font-family: "Roboto Bold", sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+  .scrollMode-center-main .myActivities-parent-body-films h1.activites-header, .scrollMode-center-main .myActivities-parent-body-videoGames h1.activites-header, .scrollMode-center-main .myActivities-parent-body-musicVideos h1.activites-header {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .scrollMode-center-main .myActivities-parent-body-films h1.activites-header, .scrollMode-center-main .myActivities-parent-body-videoGames h1.activites-header, .scrollMode-center-main .myActivities-parent-body-musicVideos h1.activites-header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .myActivities-parent-body-films h1.activites-header, .scrollMode-center-main .myActivities-parent-body-videoGames h1.activites-header, .scrollMode-center-main .myActivities-parent-body-musicVideos h1.activites-header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .scrollMode-center-main .myActivities-parent-body-films h1.activites-header, .scrollMode-center-main .myActivities-parent-body-videoGames h1.activites-header, .scrollMode-center-main .myActivities-parent-body-musicVideos h1.activites-header {
+    font-size: 1.2rem;
+  }
+}
+
+.scrollMode-center-main .myActivities-parent-body-films table, .scrollMode-center-main .myActivities-parent-body-videoGames table, .scrollMode-center-main .myActivities-parent-body-musicVideos table {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .myActivities-parent-body-films table, .scrollMode-center-main .myActivities-parent-body-videoGames table, .scrollMode-center-main .myActivities-parent-body-musicVideos table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-y: scroll;
+    white-space: nowrap;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .myActivities-parent-body-films table, .scrollMode-center-main .myActivities-parent-body-videoGames table, .scrollMode-center-main .myActivities-parent-body-musicVideos table {
+    width: 80vw;
+    overflow-x: auto;
+    margin: 0 auto;
+  }
+}
+
+.scrollMode-center-main .myActivities-parent-body-films table.outer-table, .scrollMode-center-main .myActivities-parent-body-films tr, .scrollMode-center-main .myActivities-parent-body-films td, .scrollMode-center-main .myActivities-parent-body-videoGames table.outer-table, .scrollMode-center-main .myActivities-parent-body-videoGames tr, .scrollMode-center-main .myActivities-parent-body-videoGames td, .scrollMode-center-main .myActivities-parent-body-musicVideos table.outer-table, .scrollMode-center-main .myActivities-parent-body-musicVideos tr, .scrollMode-center-main .myActivities-parent-body-musicVideos td {
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.scrollMode-center-main .myActivities-parent-body-films table, .scrollMode-center-main .myActivities-parent-body-films tr, .scrollMode-center-main .myActivities-parent-body-films td, .scrollMode-center-main .myActivities-parent-body-films th, .scrollMode-center-main .myActivities-parent-body-videoGames table, .scrollMode-center-main .myActivities-parent-body-videoGames tr, .scrollMode-center-main .myActivities-parent-body-videoGames td, .scrollMode-center-main .myActivities-parent-body-videoGames th, .scrollMode-center-main .myActivities-parent-body-musicVideos table, .scrollMode-center-main .myActivities-parent-body-musicVideos tr, .scrollMode-center-main .myActivities-parent-body-musicVideos td, .scrollMode-center-main .myActivities-parent-body-musicVideos th {
+  text-align: center;
+  color: #f2b632;
+  border: 1px solid #f2b632;
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .myActivities-parent-body-films table, .scrollMode-center-main .myActivities-parent-body-films tr, .scrollMode-center-main .myActivities-parent-body-films td, .scrollMode-center-main .myActivities-parent-body-films th, .scrollMode-center-main .myActivities-parent-body-videoGames table, .scrollMode-center-main .myActivities-parent-body-videoGames tr, .scrollMode-center-main .myActivities-parent-body-videoGames td, .scrollMode-center-main .myActivities-parent-body-videoGames th, .scrollMode-center-main .myActivities-parent-body-musicVideos table, .scrollMode-center-main .myActivities-parent-body-musicVideos tr, .scrollMode-center-main .myActivities-parent-body-musicVideos td, .scrollMode-center-main .myActivities-parent-body-musicVideos th {
+    font-size: .8rem;
+  }
+}
+
+.scrollMode-center-main .myActivities-parent-body-films tr, .scrollMode-center-main .myActivities-parent-body-films td, .scrollMode-center-main .myActivities-parent-body-videoGames tr, .scrollMode-center-main .myActivities-parent-body-videoGames td, .scrollMode-center-main .myActivities-parent-body-musicVideos tr, .scrollMode-center-main .myActivities-parent-body-musicVideos td {
+  border-bottom: 1px solid #f2b632;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.scrollMode-center-main .myActivities-parent-body-films td ul, .scrollMode-center-main .myActivities-parent-body-videoGames td ul, .scrollMode-center-main .myActivities-parent-body-musicVideos td ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .myActivities-parent-body-films td ul, .scrollMode-center-main .myActivities-parent-body-videoGames td ul, .scrollMode-center-main .myActivities-parent-body-musicVideos td ul {
+    font-size: .8rem;
+  }
+}
+
+.scrollMode-center-main .myActivities-parent-body-films td ul li, .scrollMode-center-main .myActivities-parent-body-videoGames td ul li, .scrollMode-center-main .myActivities-parent-body-musicVideos td ul li {
+  margin: 10px auto;
+}
+
+.scrollMode-center-main .myActivities-parent-body-films tr, .scrollMode-center-main .myActivities-parent-body-films td, .scrollMode-center-main .myActivities-parent-body-films th, .scrollMode-center-main .myActivities-parent-body-videoGames tr, .scrollMode-center-main .myActivities-parent-body-videoGames td, .scrollMode-center-main .myActivities-parent-body-videoGames th, .scrollMode-center-main .myActivities-parent-body-musicVideos tr, .scrollMode-center-main .myActivities-parent-body-musicVideos td, .scrollMode-center-main .myActivities-parent-body-musicVideos th {
+  padding: 10px 20px;
+}
+
+.scrollMode-center-main .myActivities-parent-body-films th, .scrollMode-center-main .myActivities-parent-body-videoGames th, .scrollMode-center-main .myActivities-parent-body-musicVideos th {
+  background-color: #252839;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .myActivities-parent-body-videoGames table {
+    width: 100%;
+    overflow-y: auto;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .myActivities-parent-body-videoGames table {
+    width: 80vw;
+    overflow-x: auto;
+    margin: auto;
+  }
+}
+
+.scrollMode-center-main .myActivities-parent-body-videoGames table, .scrollMode-center-main .myActivities-parent-body-videoGames tr, .scrollMode-center-main .myActivities-parent-body-videoGames td, .scrollMode-center-main .myActivities-parent-body-videoGames th {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #f2b632;
+  margin: auto;
+}
+
+.scrollMode-center-main .myActivities-parent-body-videoGames tr, .scrollMode-center-main .myActivities-parent-body-videoGames td, .scrollMode-center-main .myActivities-parent-body-videoGames th {
+  padding: 20px 40px;
+}
+
+@media screen and (max-width: 936px) {
+  .scrollMode-center-main .myActivities-parent-body-musicVideos table {
+    width: 100%;
+    overflow-y: auto;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scrollMode-center-main .myActivities-parent-body-musicVideos table {
+    width: 80vw;
+    overflow-x: auto;
+    margin: auto;
+  }
+}
+
+.scrollMode-center-main .myActivities-parent-body-musicVideos table, .scrollMode-center-main .myActivities-parent-body-musicVideos tr, .scrollMode-center-main .myActivities-parent-body-musicVideos td, .scrollMode-center-main .myActivities-parent-body-musicVideos th {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #f2b632;
+  margin: auto;
+}
+
+.scrollMode-center-main .myActivities-parent-body-musicVideos tr, .scrollMode-center-main .myActivities-parent-body-musicVideos td, .scrollMode-center-main .myActivities-parent-body-musicVideos th {
+  padding: 20px 40px;
+}
+
+.scrollMode-center-footer {
+  width: 100%;
+  height: auto;
+  background: url("../images/annie-spratt-gM8igOIP5MA-unsplash.jpg") no-repeat center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.scrollMode-center-footer .footer-upSection {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-left {
+  width: 70%;
+  padding: 50px;
+  text-align: center;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-left h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #f2b632;
+  font-family: "Roboto Bold", sans-serif;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-left ul {
+  text-align: center;
+  list-style: none;
+  list-style-position: inside;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-left ul li {
+  font-size: 1.2rem;
+  color: #f2b632;
+  margin: 20px 0;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-left ul li a {
+  font-size: 1.5rem !important;
+  text-decoration: none;
+  color: #f2b632;
+  font-family: "Roboto Light", sans-serif;
+  -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.scrollMode-center-footer .footer-upSection .footer-left ul li a:hover {
+  text-shadow: -5px 5px 5px #f2b632;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-left h5 {
+  color: #f2b632;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-center img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 10px 100px 25px #f2b632;
+          box-shadow: 0px 10px 100px 25px #f2b632;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-right {
+  width: 70%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-right h1 {
+  font-size: 2.5rem;
+  color: #f2b632;
+  font-family: "Roboto Bold", sans-serif;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-right-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-right-items h1 {
+  margin: 15px auto;
+}
+
+.scrollMode-center-footer .footer-upSection .footer-right-items h1 a {
+  display: block;
+  font-size: 2.5rem !important;
+  text-decoration: none;
+  color: #f2b632;
+  font-family: "Roboto Light", sans-serif;
+  -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.scrollMode-center-footer .footer-upSection .footer-right-items h1 a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.scrollMode-center-footer .footer-downSection {
+  width: 100%;
+  text-align: center;
+}
+
+.scrollMode-center-footer .footer-downSection h4 {
+  color: #f2b632;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto Regular", sans-serif;
+}
+
+.total {
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */

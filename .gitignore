@@ -1,11 +1,6 @@
-css/
-fonts/
-images/
 node_modules/
 sass/
 gallery-app.js
-pre-page-app.js
-scrollMode-app.js
 test.txt
 package.json
 package-lock.json

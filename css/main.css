@@ -195,7 +195,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #b5b5b7;
-  background: url("../images/Jason Statham Desktop Wallpaper.jpg") no-repeat center;
+  background: url("../images/gallery/Jason Statham Wallpaper Widescreen-min.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -250,7 +250,7 @@
       -ms-flex-align: center;
           align-items: center;
   right: 0;
-  background: url("/images/Jason Statham Wallpaper For Desktop.jpg") no-repeat center;
+  background: url("/images/gallery/the-expendables-3-jason-statham-w700.jpg") no-repeat center;
   background-size: cover;
   background-color: #677077;
   -webkit-box-orient: vertical;

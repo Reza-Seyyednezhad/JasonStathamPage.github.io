@@ -361,6 +361,13 @@ html {
   position: fixed;
   bottom: 100px;
   right: 100px;
+  padding: 5px;
+  -webkit-transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.scrollMode .goToUp:hover {
+  background-color: #f2b632;
 }
 
 @media screen and (max-width: 1150px) {
@@ -394,6 +401,12 @@ html {
 .scrollMode .goToUp a {
   font-size: 4rem;
   color: #f2b632;
+  -webkit-transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.scrollMode .goToUp a:hover {
+  color: #252839;
 }
 
 @media screen and (max-width: 1150px) {
